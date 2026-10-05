@@ -168,3 +168,25 @@ int main() {
     return 0;
 }
 
+//Write a program to calculate the average of five numbers.
+
+#include <stdio.h>
+
+int main() {
+    float a, b, c, d, e;
+    printf("enter first number:");
+    scanf("%f", &a);
+    printf("enter second number:");
+    scanf("%f", &b);
+    printf("enter third number:");
+    scanf("%f", &c);
+    printf("enter fourth number:");
+    scanf("%f", &d);
+    printf("enter fifth number:");
+    scanf("%f", &e);
+
+    float avg=(a+b+c+d+e)/5;
+    printf("average of entered five numbers is: %f\n", avg);
+    
+    return 0;
+}
