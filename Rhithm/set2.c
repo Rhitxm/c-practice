@@ -58,3 +58,29 @@ int main() {
     return 0;
 }
     
+//Write a program to find the greatest of three numbers.
+
+#include <stdio.h>
+
+int main() {
+    int x;
+    int y;
+    int z;
+    printf("enter first number:");
+    scanf("%d", &x);
+    printf("enter second number:");
+    scanf("%d", &y);
+    printf("enter third number:");
+    scanf("%d", &z);
+    if (x>y && x>z){
+        printf("first entered number is the greatest");
+    }
+    else if(y>x && y>z){
+        printf("second entered number is the greatest");
+    }
+    else if(z>x && z>y){
+        printf("third entered number is the greatest");
+    }
+    
+    return 0;
+}
