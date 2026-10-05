@@ -82,3 +82,89 @@ int main() {
     return 0;
 }
 
+//Write a program to calculate the area and circumference of a circle..
+
+#include <stdio.h>
+
+int main() {
+    float r;
+    printf("enter radius:");
+    scanf("%f", &r);
+    //area
+    float area=3.14*r*r;
+    printf("area of circle is: %f\n", area);
+    //perimeter
+    float perimeter=2*3.14*r;
+    printf("perimeter of circle is: %f\n", perimeter);
+   
+    
+    return 0;
+}
+
+//Write a program to convert Celsius to Fahrenheit.
+
+#include <stdio.h>
+
+int main() {
+    float c;
+    printf("enter temperature in celcius:");
+    scanf("%f", &c);
+    float f=(c*9/5)+32;
+    printf("temperature is fahrenhite is: %f\n", f);
+
+    return 0;
+}
+
+//Write a program to swap two numbers using a third variable.
+
+#include <stdio.h>
+
+int main() {
+    int a=10;
+    int b=20;
+    int c;
+    c=b;
+    b=a;
+    a=c;
+    printf("a=%d\n",a);
+    printf("b=%d\n", b);
+
+
+    return 0;
+}
+
+//Write a program to swap two numbers without using a third variable.
+
+#include <stdio.h>
+
+int main() {
+    int a=10;
+    int b=20;
+    a=b;
+    b=a/2;
+    printf("a=%d\n",a);
+    printf("b=%d\n", b);
+    
+    return 0;
+}
+
+//Write a program to input a number and print its square and cube.
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    printf("enter a number:");
+    scanf("%d", &a);
+    
+    //square
+    int sq=a*a;
+    printf("square of entered number is=%d\n", sq);
+    //cube
+    int cube=a*a*a;
+    printf("cube of entered number is=%d\n", cube);
+    
+    
+    return 0;
+}
+
