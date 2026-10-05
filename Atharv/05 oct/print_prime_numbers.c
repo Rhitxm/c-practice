@@ -1,33 +1,40 @@
-//Write a C program to input two numbers L and R and print all prime numbers between them.
+// Write a C program to input two numbers L and R and print all prime numbers between them.
 
 #include <stdio.h>
 
 int main()
 {
-    int L, R, i, j, isPrime;
+    int n, prime;
 
-    printf("Enter the range: ");
-    scanf("%d %d", &L, &R);
+    printf("Enter number n: ");
+    scanf("%d", &n);
 
-    for (i = L; i <= R; i++)
+    if (n == 1)
     {
-        if (i < 2)
-            continue;
-
-        isPrime = 1;
-
-        for (j = 2; j <= i / 2; j++)
+        printf("1 is nor prime nor compostite.");
+    }
+    else if (n == 0)
+    {
+        printf("1 is nor prime nor compostite.");
+    }
+    else
+    {
+        for (int i = 2; i < n; i++)
         {
-            if (i % j == 0)
+            prime = 1;
+            for (int j = 2; j <= (i / 2); j++)
             {
-                isPrime = 0;
-                break;
+                if (i % j == 0)
+                {
+                    prime = 0;
+                }
+            }
+
+            if (prime == 1)
+            {
+                printf("%d \t", i);
             }
         }
-
-        if (isPrime == 1)
-            printf("%d ", i);
     }
-
     return 0;
 }
