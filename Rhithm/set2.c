@@ -36,3 +36,25 @@ int main() {
  
     return 0;
 }
+
+//Write a program to find the greater of two numbers.
+
+#include <stdio.h>
+
+int main() {
+    int x;
+    int y;
+    printf("enter first number:");
+    scanf("%d", &x);
+    printf("enter second number:");
+    scanf("%d", &y);
+    if(x>y){
+        printf("first entered number is greater\n");
+    }
+    else{
+        printf("second entered number is greater\n");
+    }
+ 
+    return 0;
+}
+    
