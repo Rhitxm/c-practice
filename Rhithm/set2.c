@@ -135,3 +135,39 @@ int main() {
     }
     return 0;
 }
+
+
+//Write a program to check whether three given sides can form a triangle and, if so, determine whether it is equilateral, isosceles, or scalene.
+
+#include <stdio.h>
+
+int main() {
+    int side1, side2, side3;
+    printf("enter first side:");
+    scanf("%d", &side1);
+    getchar();
+    printf("enter second side:");
+    scanf("%d", &side2);
+    getchar();
+    printf("enter third side:");
+    scanf("%d", &side3);
+    getchar();
+    if (side1==0 || side2==0 || side3==0){
+        printf("one or more entered values is not a side\n");
+    }
+    else if(side1+side2>side3 && side1+side3>side2 && side2+side3>side1){
+    if(side1==side2 && side2==side3){
+        printf("it is an equilateral triangle\n");
+    }
+    else if(side1==side2 || side1==side3 || side2==side3){
+        printf("it is an isosceles triangle\n");
+    }
+    else{
+        printf("it is a scelene triangle\n");
+    }
+    }
+    else{
+        printf("entered values does not form a triangle\n");
+    }
+    return 0;
+}
