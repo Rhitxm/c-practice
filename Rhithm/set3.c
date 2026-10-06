@@ -52,3 +52,20 @@ int main() {
     printf("sum of numbers is: %d\n", sum);
     return 0;
 }
+
+
+//Find the factorial of a number.
+
+#include <stdio.h>
+
+int main() {
+    int fact=1;
+    int n;
+    printf("enter number:");
+    scanf("%d", &n);
+    for(int i=1; i<=n; i++){
+        fact=fact*i;
+    }
+    printf("factorial of numbers is: %d\n", fact);
+    return 0;
+}
