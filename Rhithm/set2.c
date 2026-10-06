@@ -118,3 +118,20 @@ int main() {
 // It is divisible by 400 → leap year
 // OR it is divisible by 4 but not by 100 → leap year
 // Otherwise → not a leap year
+
+//Write a program to check whether an alphabet is a vowel or consonant.
+
+#include <stdio.h>
+
+int main() {
+    char alphabet;
+    printf("enter your alphabet:");
+    scanf("%c", &alphabet);
+    if(alphabet=='a'|| alphabet=='e'|| alphabet=='i' || alphabet=='o'|| alphabet=='u'){
+        printf("alphabet is a vowel\n");
+    }
+    else{
+        printf("alphabet is a consonant\n");
+    }
+    return 0;
+}
