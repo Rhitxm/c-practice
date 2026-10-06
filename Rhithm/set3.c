@@ -37,4 +37,18 @@ int main() {
     return 0;
 }
 
+//Find the sum of numbers from 1 to n
 
+#include <stdio.h>
+
+int main() {
+    int sum=0;
+    int n;
+    printf("enter number:");
+    scanf("%d", &n);
+    for(int i=0; i<=n; i++){
+        sum=sum+i;
+    }
+    printf("sum of numbers is: %d\n", sum);
+    return 0;
+}
