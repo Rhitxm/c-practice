@@ -69,3 +69,17 @@ int main() {
     printf("factorial of numbers is: %d\n", fact);
     return 0;
 }
+
+//Print the multiplication table of a given number
+
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter your number:");
+    scanf("%d", &n);
+    for(int i=1; i<=10; i++){
+        int table=n*i;
+        printf("%d\n", table);
+    }
+    return 0;
+}
