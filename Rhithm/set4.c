@@ -24,3 +24,28 @@ int main(){
         return 0;
     }
 }
+
+
+//Print prime numbers between 1 and n.
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter your last number:");
+    scanf("%d", &n);
+
+    printf("prime numbers between 1 and n are:");
+    for (int num=2; num<=n;  num++){
+        int isPrime=1;
+
+        for(int i=2; i<=num/2; i++){
+            if(num%i==0){
+                isPrime=0;
+                break;
+            }
+        }
+        if(isPrime==1){
+            printf("%d\n", num);
+        }
+    }      
+        return 0;
+    }
