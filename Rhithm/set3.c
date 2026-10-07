@@ -106,3 +106,25 @@ int main(){
     }
      return 0;   
     }
+
+
+//Find the sum of digits of a number.
+
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter your number:");
+    scanf("%d", &n);
+    int sum=0, remainder;
+    if(n<0){
+        n=-n;
+    }
+    while(n>0){
+        remainder=n%10;
+        sum+=remainder;
+        n=n/10;  
+    }
+    printf("sum of the numbers in the entered integer is: %d\n", sum); 
+     return 0;   
+    }
+
