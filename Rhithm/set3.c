@@ -83,3 +83,26 @@ int main(){
     }
     return 0;
 }
+
+
+//Count the number of digits in an integer.
+
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter your number:");
+    scanf("%d", &n);
+    int count=0;
+    if(n==0){
+        count=1;
+        printf("number of digits in entered number are: %d\n", count);
+    }
+    else{
+        while(n!=0){
+            n=n/10;
+            count++;
+        }
+        printf("number of digits in entered number are: %d\n", count);
+    }
+     return 0;   
+    }
