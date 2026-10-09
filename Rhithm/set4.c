@@ -49,3 +49,20 @@ int main(){
     }      
         return 0;
     }
+
+//Find the GCD/HCF of two numbers.
+#include<stdio.h>
+int main(){
+    int a, b;
+    printf("enter the first number:");
+    scanf("%d", &a);
+    printf("enter the second number:");
+    scanf("%d", &b);
+    while(b!=0){
+        int temp=b;
+        b=a%b;
+        a=temp;
+    }
+    printf("HCF of two numbers is: %d\n", a);
+return 0;
+}
