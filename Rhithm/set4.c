@@ -66,3 +66,26 @@ int main(){
     printf("HCF of two numbers is: %d\n", a);
 return 0;
 }
+
+//Find the LCM of two numbers.
+#include<stdio.h>
+int main(){
+    int a, b, max, lcm;
+    printf("enter the first number:");
+    scanf("%d", &a);
+    printf("enter the second number:");
+    scanf("%d", &b);
+    if(a>b){
+        max=a;
+    }
+    else{
+        max=b;
+    }
+    lcm=max;
+    while(lcm%a!=0 || lcm%b!=0){
+        lcm++;
+    }
+    printf("LCM= %d\n", lcm);
+
+return 0;
+}
