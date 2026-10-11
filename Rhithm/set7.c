@@ -17,3 +17,30 @@ int main() {
 
     return 0;
 }
+
+
+// Find the largest element in an array.
+
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("enter number of elements in the array:");
+    scanf("%d", &n);
+
+    int arr[n];
+    printf("enter the array elements:\n");
+    for(int i=0; i<n; i++){
+        scanf("%d", &arr[i]);
+    }
+    int largest=arr[0];
+
+    for(int i=0; i<n; i++){
+        if(arr[i]>largest){
+            largest=arr[i];
+        }
+    }
+    printf("the largest element is: %d\n", largest);
+
+    return 0;
+}
