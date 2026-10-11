@@ -44,3 +44,29 @@ int main() {
 
     return 0;
 }
+
+// Find the smallest element in an array.
+
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("enter number of elements in the array:");
+    scanf("%d", &n);
+
+    int arr[n];
+    printf("enter the array elements:\n");
+    for(int i=0; i<n; i++){
+        scanf("%d", &arr[i]);
+    }
+    int smallest=arr[0];
+
+    for(int i=0; i<n; i++){
+        if(arr[i]<smallest){
+            smallest=arr[i];
+        }
+    }
+    printf("the smallest element is: %d\n", smallest);
+
+    return 0;
+}
