@@ -70,3 +70,28 @@ int main() {
 
     return 0;
 }
+
+
+// Find the sum and average of array elements.
+
+#include <stdio.h>
+
+int main() {
+    int n, sum=0;
+    printf("enter number of elements in the array:");
+    scanf("%d", &n);
+
+    int arr[n];
+    printf("enter the array elements:\n");
+    for(int i=0; i<n; i++){
+        scanf("%d", &arr[i]);
+        sum+=arr[i];
+    }
+    //printing sum
+    printf("sum of the elements in the array is: %d\n", sum);
+    
+    float avg=(sum)/n;
+    printf("avg of the entered numbers is: %f", avg);
+
+    return 0;
+}
