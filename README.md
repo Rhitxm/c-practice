@@ -16,7 +16,7 @@
 
 ###
 
-<p data-importer="text" align="left">This repo basically varied practice  problems solved by us</p>
+<p data-importer="text" align="left">This repo basically contains varied practice problems solved by us</p>
 
 ###
 
