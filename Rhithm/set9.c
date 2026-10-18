@@ -52,7 +52,7 @@ printf("\n\n");
     return 0;
 }
 
-//Store information of 5 students using an array of structures and find the student with the highest ..
+//Store information of 5 students using an array of structures and find the student with the highest marks
 #include <stdio.h>
 #include <string.h>
 struct student{
