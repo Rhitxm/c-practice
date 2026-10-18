@@ -1,8 +1,8 @@
-<h1 data-importer="text" align="center">Hey 👋 What's up? We are two coders from VESIT aiming to be better at coding brick by brick</h1>
+<h1 data-importer="text" align="center"> We are coders from VESIT aiming to be better at coding brick by brick</h1>
 
 ###
 
-<p data-importer="text" align="left">Atharv X Rhitxm</p>
+<p data-importer="text" align="left">Atharv X Rhitxm x Darsh x Darcy</p>
 
 ###
 
@@ -11,12 +11,12 @@
 ###
 
 <div data-importer="image" align="center">
-  <img data-importer="image" height="200" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWw3cjlkYW4wNXV3bGw5NXdsdmlndWtnMmw1YnI2eGVxbnpqbGhuaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uES0oXcxs0TVGE79Mu/giphy.gif"  />
+  <img data-importer="image" height="200" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG5jc2E0b2xkOWs2Y2x3NWg0MGcwcm5kcThhNXR1bDg1ZHNubmRxOCZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/iIqmM5tTjmpOB9mpbn/giphy.gif"  />
 </div>
 
 ###
 
-<p data-importer="text" align="left">This repo basically contains varied practice problems solved by us</p>
+<p data-importer="text" align="left">This repo basically contains varied C programming practice problems solved by us</p>
 
 ###
 
