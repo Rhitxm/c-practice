@@ -18,7 +18,7 @@ Before dereferencing, check if (p != NULL).
   p = &a;
 
   if(p != NULL){
-   printf("The value after assigning &a");     // assigning the given value
+   printf("The value after assigning &a = %d", *p);     // assigning the given value
   }
   return 0;
   }
