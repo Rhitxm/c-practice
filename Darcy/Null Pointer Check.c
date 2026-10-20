@@ -12,7 +12,7 @@ Before dereferencing, check if (p != NULL).
   if(p != NULL){
   printf("The value is :%d\n",*p);   //NULL Pointer checker using if statement
   }else{
-    printf("The Pointer is NULL");
+    printf("The Pointer is NULL \n");
   }
 
   p = &a;
