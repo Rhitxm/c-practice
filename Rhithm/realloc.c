@@ -13,3 +13,6 @@ printf("Elements after realloc: ");
 for (i = 0; i < 5; i++)
 printf("%d ", ptr[i]);
 printf("\n");
+free(ptr);
+return 0;
+}
