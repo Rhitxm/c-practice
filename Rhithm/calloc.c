@@ -13,4 +13,7 @@ printf("Values after calloc: ");
 for (i = 0; i < 5; i++)
 printf("%d ", ptr[i]); // all are 0
 printf("\n");
+free(ptr);
+return 0;
+}
 
