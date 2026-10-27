@@ -105,3 +105,8 @@ printf("\n\n");
     printf("CGPA: %.f\n", highest.marks);    
     return 0;
 }
+
+
+
+
+
