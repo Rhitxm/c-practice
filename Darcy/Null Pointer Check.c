@@ -1,6 +1,6 @@
-Write a program that declares int *p = NULL;. 
-Before dereferencing, check if (p != NULL). 
-  Print "Pointer is NULL" otherwise. Then assign p = &a and safely dereference.
+// Write a program that declares int *p = NULL;. 
+// Before dereferencing, check if (p != NULL). 
+//   Print "Pointer is NULL" otherwise. Then assign p = &a and safely dereference.
 
 #include <stdio.h>
 
